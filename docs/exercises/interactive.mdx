@@ -1,0 +1,340 @@
+---
+sidebar_position: 5
+title: Interactive Quizzes
+---
+
+import Quiz from '@site/src/components/Quiz';
+
+# Interactive Quizzes
+
+Test your knowledge with instant feedback!
+
+---
+
+## Masculine Singular (Quick Quiz)
+
+<Quiz
+  title="Choose the correct genitive form"
+  questions={[
+    {
+      question: "bez ___ (student)",
+      options: ["student", "studenta", "studentu"],
+      answer: "studenta",
+      explanation: "Masculine animate → -a"
+    },
+    {
+      question: "z ___ (hrad)",
+      options: ["hrad", "hradu", "hrada"],
+      answer: "hradu",
+      explanation: "Masculine inanimate hard → -u"
+    },
+    {
+      question: "od ___ (muž)",
+      options: ["muž", "muže", "mužu"],
+      answer: "muže",
+      explanation: "Masculine animate soft → -e"
+    },
+    {
+      question: "do ___ (obchod)",
+      options: ["obchod", "obchodu", "obchoda"],
+      answer: "obchodu",
+      explanation: "Masculine inanimate hard → -u"
+    },
+    {
+      question: "u ___ (doktor)",
+      options: ["doktor", "doktora", "doktoru"],
+      answer: "doktora",
+      explanation: "Masculine animate hard → -a"
+    }
+  ]}
+/>
+
+---
+
+## Feminine Singular
+
+<Quiz
+  title="Type the correct genitive form"
+  questions={[
+    {
+      question: "z ___ (Praha)",
+      answer: "Prahy",
+      explanation: "Feminine -a → -y"
+    },
+    {
+      question: "bez ___ (voda)",
+      answer: "vody",
+      explanation: "Feminine -a → -y"
+    },
+    {
+      question: "do ___ (škola)",
+      answer: "školy",
+      explanation: "Feminine -a → -y"
+    },
+    {
+      question: "vedle ___ (restaurace)",
+      answer: "restaurace",
+      explanation: "Feminine -e → -e (no change)"
+    },
+    {
+      question: "bez ___ (noc)",
+      answer: "noci",
+      explanation: "Feminine consonant → -i"
+    }
+  ]}
+/>
+
+---
+
+## Neuter Singular
+
+<Quiz
+  title="Type the correct genitive form"
+  questions={[
+    {
+      question: "z ___ (město)",
+      answer: "města",
+      explanation: "Neuter -o → -a"
+    },
+    {
+      question: "do ___ (kino)",
+      answer: "kina",
+      explanation: "Neuter -o → -a"
+    },
+    {
+      question: "uprostřed ___ (moře)",
+      answer: "moře",
+      explanation: "Neuter -e → -e (no change)"
+    },
+    {
+      question: "blízko ___ (nádraží)",
+      answer: "nádraží",
+      explanation: "Neuter -í → -í (no change)"
+    }
+  ]}
+/>
+
+---
+
+## Prepositions Quiz
+
+<Quiz
+  title="Choose the correct preposition"
+  questions={[
+    {
+      question: "___ Prahy (from Prague)",
+      options: ["z", "do", "od"],
+      answer: "z",
+      explanation: "z = from (origin/place)"
+    },
+    {
+      question: "___ školy (to school)",
+      options: ["z", "do", "od"],
+      answer: "do",
+      explanation: "do = to/into (enclosed spaces)"
+    },
+    {
+      question: "___ bratra (from brother)",
+      options: ["z", "do", "od"],
+      answer: "od",
+      explanation: "od = from (person)"
+    },
+    {
+      question: "___ cukru (without sugar)",
+      options: ["bez", "u", "vedle"],
+      answer: "bez",
+      explanation: "bez = without"
+    },
+    {
+      question: "___ doktora (at the doctor's)",
+      options: ["bez", "u", "vedle"],
+      answer: "u",
+      explanation: "u = at (someone's place)"
+    }
+  ]}
+/>
+
+---
+
+## Pronouns Quiz
+
+<Quiz
+  title="Choose the correct pronoun"
+  questions={[
+    {
+      question: "bez ___ (já → me)",
+      options: ["já", "mě", "mi"],
+      answer: "mě",
+      explanation: "já → mě in genitive"
+    },
+    {
+      question: "kvůli ___ (ty → you)",
+      options: ["ty", "tě", "tobě"],
+      answer: "tobě",
+      explanation: "ty → tobě after preposition"
+    },
+    {
+      question: "vedle ___ (on → him)",
+      options: ["ho", "jeho", "něho"],
+      answer: "něho",
+      explanation: "After preposition: on → něho/něj"
+    },
+    {
+      question: "od ___ (ona → her)",
+      options: ["jí", "ní", "ji"],
+      answer: "ní",
+      explanation: "After preposition: ona → ní"
+    },
+    {
+      question: "Bojím se ___ (on → him)",
+      options: ["ho", "něho", "jeho"],
+      answer: "ho",
+      explanation: "With verb (no prep): on → ho"
+    }
+  ]}
+/>
+
+---
+
+## Numbers & Quantities Quiz
+
+<Quiz
+  title="Complete with the correct genitive plural"
+  questions={[
+    {
+      question: "pět ___ (student)",
+      answer: "studentů",
+      explanation: "Masculine plural → -ů"
+    },
+    {
+      question: "mnoho ___ (kniha)",
+      answer: "knih",
+      explanation: "Feminine -a plural → zero ending"
+    },
+    {
+      question: "kolik ___ (hodina)?",
+      answer: "hodin",
+      explanation: "Feminine -a plural → zero ending"
+    },
+    {
+      question: "šest ___ (město)",
+      answer: "měst",
+      explanation: "Neuter -o plural → zero ending"
+    },
+    {
+      question: "pět ___ (noc)",
+      answer: "nocí",
+      explanation: "Feminine consonant plural → -í"
+    }
+  ]}
+/>
+
+---
+
+## Possession Quiz
+
+<Quiz
+  title="Complete the possession expression"
+  questions={[
+    {
+      question: "kniha ___ (bratr)",
+      answer: "bratra",
+      explanation: "Brother's book - masc. animate → -a"
+    },
+    {
+      question: "auto ___ (otec)",
+      answer: "otce",
+      explanation: "Father's car - masc. animate soft → -e"
+    },
+    {
+      question: "konec ___ (film)",
+      answer: "filmu",
+      explanation: "End of the film - masc. inanimate → -u"
+    },
+    {
+      question: "střed ___ (město)",
+      answer: "města",
+      explanation: "Center of the city - neuter → -a"
+    },
+    {
+      question: "autor ___ (kniha)",
+      answer: "knihy",
+      explanation: "Author of the book - feminine → -y"
+    }
+  ]}
+/>
+
+---
+
+## Mixed Challenge
+
+<Quiz
+  title="Complete with the correct genitive form"
+  questions={[
+    {
+      question: "Jsem z ___ (Praha).",
+      answer: "Prahy",
+      explanation: "From Prague - feminine -a → -y"
+    },
+    {
+      question: "Káva bez ___ (cukr).",
+      answer: "cukru",
+      explanation: "Without sugar - masc. inanimate → -u"
+    },
+    {
+      question: "Bojím se ___ (pes).",
+      answer: "psa",
+      explanation: "Afraid of dog - masc. animate → -a"
+    },
+    {
+      question: "Uprostřed ___ (noc).",
+      answer: "noci",
+      explanation: "In the middle of night - fem. cons. → -i"
+    },
+    {
+      question: "Během ___ (léto).",
+      answer: "léta",
+      explanation: "During summer - neuter -o → -a"
+    }
+  ]}
+/>
+
+---
+
+## Adjective + Noun Quiz
+
+<Quiz
+  title="Put both adjective and noun in genitive"
+  questions={[
+    {
+      question: "z ___ ___ (velký město)",
+      answer: "velkého města",
+      explanation: "Hard adj -ého, neuter -a"
+    },
+    {
+      question: "bez ___ ___ (dobrý přítel)",
+      answer: "dobrého přítele",
+      explanation: "Hard adj -ého, masc. animate soft -e"
+    },
+    {
+      question: "autor ___ ___ (nová kniha)",
+      answer: "nové knihy",
+      explanation: "Hard adj fem -é, feminine -y"
+    },
+    {
+      question: "pět ___ ___ (mladý student)",
+      answer: "mladých studentů",
+      explanation: "Plural adj -ých, masc. plural -ů"
+    }
+  ]}
+/>
+
+---
+
+## More Practice
+
+Want more exercises? Try the written versions:
+
+- [Possession](/exercises/possession)
+- [Fill in the Blank](/exercises/fill-blank)
+- [Transform Drills](/exercises/transform)
