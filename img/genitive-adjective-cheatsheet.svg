@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 520" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-opacity="0.12"/>
+    </filter>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a202c"/>
+      <stop offset="100%" style="stop-color:#2d3748"/>
+    </linearGradient>
+    <linearGradient id="hardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#805ad5"/>
+      <stop offset="100%" style="stop-color:#6b46c1"/>
+    </linearGradient>
+    <linearGradient id="softGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#38b2ac"/>
+      <stop offset="100%" style="stop-color:#319795"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ecc94b"/>
+      <stop offset="100%" style="stop-color:#d69e2e"/>
+    </linearGradient>
+    <linearGradient id="mascGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4299e1"/>
+      <stop offset="100%" style="stop-color:#3182ce"/>
+    </linearGradient>
+    <linearGradient id="femGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ed64a6"/>
+      <stop offset="100%" style="stop-color:#d53f8c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main card background -->
+  <rect x="20" y="20" width="910" height="480" rx="20" fill="url(#cardBg)" filter="url(#shadow)"/>
+
+  <!-- Header -->
+  <text x="475" y="55" text-anchor="middle" font-size="26" font-weight="bold" fill="white">Genitive Adjective Cheat Sheet</text>
+  <text x="475" y="78" text-anchor="middle" font-size="14" fill="#a0aec0">Adjectives agree with nouns: nového studenta, nové knihy, nových studentů</text>
+
+  <!-- Divider line -->
+  <line x1="50" y1="95" x2="900" y2="95" stroke="#4a5568" stroke-width="1"/>
+
+  <!-- Key Pattern Box -->
+  <rect x="35" y="105" width="870" height="45" rx="10" fill="url(#goldGrad)" filter="url(#shadow)"/>
+  <text x="475" y="133" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a202c">HARD: -ého (M/N), -é (F), -ých (pl) | SOFT: -ího (M/N), -í (F), -ích (pl)</text>
+
+  <!-- Two main columns -->
+
+  <!-- Column 1: Hard Adjectives -->
+  <rect x="35" y="165" width="420" height="315" rx="12" fill="#1a202c" stroke="url(#hardGrad)" stroke-width="3"/>
+  <rect x="35" y="165" width="420" height="50" rx="12" fill="url(#hardGrad)"/>
+  <rect x="35" y="203" width="420" height="12" fill="url(#hardGrad)"/>
+  <text x="245" y="197" text-anchor="middle" font-size="16" font-weight="bold" fill="white">HARD ADJECTIVES (-ý/-á/-é)</text>
+
+  <!-- Hard: Masculine/Neuter -->
+  <rect x="50" y="230" width="190" height="110" rx="8" fill="#2d3748"/>
+  <text x="145" y="252" text-anchor="middle" font-size="13" font-weight="bold" fill="#4299e1">Masc &amp; Neuter</text>
+  <text x="145" y="285" text-anchor="middle" font-size="28" font-weight="bold" fill="#805ad5">-ého</text>
+  <text x="145" y="310" text-anchor="middle" font-size="11" fill="#a0aec0">nový → nov<tspan fill="#805ad5" font-weight="bold">ého</tspan></text>
+  <text x="145" y="328" text-anchor="middle" font-size="11" fill="#a0aec0">dobrý → dobr<tspan fill="#805ad5" font-weight="bold">ého</tspan></text>
+
+  <!-- Hard: Feminine -->
+  <rect x="250" y="230" width="190" height="110" rx="8" fill="#2d3748"/>
+  <text x="345" y="252" text-anchor="middle" font-size="13" font-weight="bold" fill="#ed64a6">Feminine</text>
+  <text x="345" y="285" text-anchor="middle" font-size="28" font-weight="bold" fill="#805ad5">-é</text>
+  <text x="345" y="310" text-anchor="middle" font-size="11" fill="#a0aec0">nová → nov<tspan fill="#805ad5" font-weight="bold">é</tspan></text>
+  <text x="345" y="328" text-anchor="middle" font-size="11" fill="#a0aec0">dobrá → dobr<tspan fill="#805ad5" font-weight="bold">é</tspan></text>
+
+  <!-- Hard: Plural -->
+  <rect x="50" y="350" width="390" height="65" rx="8" fill="#2d3748"/>
+  <text x="245" y="375" text-anchor="middle" font-size="13" font-weight="bold" fill="#a0aec0">ALL PLURAL</text>
+  <text x="245" y="405" text-anchor="middle" font-size="28" font-weight="bold" fill="#805ad5">-ých</text>
+
+  <!-- Hard: Examples -->
+  <text x="55" y="445" font-size="12" fill="#e2e8f0">nového studenta • nové knihy • nových studentů</text>
+  <text x="55" y="465" font-size="11" fill="#a0aec0">bez dobrého přítele • z velkého města</text>
+
+  <!-- Column 2: Soft Adjectives -->
+  <rect x="475" y="165" width="420" height="315" rx="12" fill="#1a202c" stroke="url(#softGrad)" stroke-width="3"/>
+  <rect x="475" y="165" width="420" height="50" rx="12" fill="url(#softGrad)"/>
+  <rect x="475" y="203" width="420" height="12" fill="url(#softGrad)"/>
+  <text x="685" y="197" text-anchor="middle" font-size="16" font-weight="bold" fill="white">SOFT ADJECTIVES (-í)</text>
+
+  <!-- Soft: Masculine/Neuter -->
+  <rect x="490" y="230" width="190" height="110" rx="8" fill="#2d3748"/>
+  <text x="585" y="252" text-anchor="middle" font-size="13" font-weight="bold" fill="#4299e1">Masc &amp; Neuter</text>
+  <text x="585" y="285" text-anchor="middle" font-size="28" font-weight="bold" fill="#38b2ac">-ího</text>
+  <text x="585" y="310" text-anchor="middle" font-size="11" fill="#a0aec0">cizí → ciz<tspan fill="#38b2ac" font-weight="bold">ího</tspan></text>
+  <text x="585" y="328" text-anchor="middle" font-size="11" fill="#a0aec0">jarní → jarn<tspan fill="#38b2ac" font-weight="bold">ího</tspan></text>
+
+  <!-- Soft: Feminine -->
+  <rect x="690" y="230" width="190" height="110" rx="8" fill="#2d3748"/>
+  <text x="785" y="252" text-anchor="middle" font-size="13" font-weight="bold" fill="#ed64a6">Feminine</text>
+  <text x="785" y="285" text-anchor="middle" font-size="28" font-weight="bold" fill="#38b2ac">-í</text>
+  <text x="785" y="305" text-anchor="middle" font-size="10" fill="#68d391">(no change!)</text>
+  <text x="785" y="328" text-anchor="middle" font-size="11" fill="#a0aec0">cizí → ciz<tspan fill="#38b2ac" font-weight="bold">í</tspan></text>
+
+  <!-- Soft: Plural -->
+  <rect x="490" y="350" width="390" height="65" rx="8" fill="#2d3748"/>
+  <text x="685" y="375" text-anchor="middle" font-size="13" font-weight="bold" fill="#a0aec0">ALL PLURAL</text>
+  <text x="685" y="405" text-anchor="middle" font-size="28" font-weight="bold" fill="#38b2ac">-ích</text>
+
+  <!-- Soft: Examples -->
+  <text x="495" y="445" font-size="12" fill="#e2e8f0">cizího muže • cizí země • cizích lidí</text>
+  <text x="495" y="465" font-size="11" fill="#a0aec0">bez posledního autobusu • z jarního dne</text>
+</svg>

@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkhome_melvin_ideas_locative=globalThis.webpackChunkhome_melvin_ideas_locative||[]).push([[235],{8552(e){e.exports=JSON.parse('{"name":"docusaurus-plugin-content-pages","id":"default"}')}}]);
