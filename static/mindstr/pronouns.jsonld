@@ -1,0 +1,272 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Pronouns",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/genitive/pronouns",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#xmtzgz",
+      "name": "Quick Reference",
+      "x": -246,
+      "y": -39,
+      "link": "https://grammar.ilearnczech.com/genitive/pronouns#quick-reference",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#b9snuz",
+      "name": "Short vs Long Forms",
+      "x": -208,
+      "y": -118,
+      "link": "https://grammar.ilearnczech.com/genitive/pronouns#short-vs-long-forms",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#nxqgmq",
+      "name": "After Prepositions: Add N-",
+      "x": -141,
+      "y": -181,
+      "link": "https://grammar.ilearnczech.com/genitive/pronouns#after-prepositions-add-n-",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#dguykc",
+      "name": "Examples with Prepositions",
+      "x": -230,
+      "y": -378,
+      "link": "https://grammar.ilearnczech.com/genitive/pronouns#examples-with-prepositions",
+      "bgColor": "#ffe2ed",
+      "parent": "#nxqgmq"
+    },
+    {
+      "@id": "#28eue2",
+      "name": "First Person: Já → Mě/Mne",
+      "x": -3,
+      "y": -234,
+      "link": "https://grammar.ilearnczech.com/genitive/pronouns#first-person-já-měmne",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#f4n9qu",
+      "name": "Examples",
+      "x": -6,
+      "y": -425,
+      "link": "https://grammar.ilearnczech.com/genitive/pronouns#examples",
+      "bgColor": "#ffe4d9",
+      "parent": "#28eue2"
+    },
+    {
+      "@id": "#krwt6e",
+      "name": "Second Person: Ty → Tě/Tebe",
+      "x": 100,
+      "y": -190,
+      "link": "https://grammar.ilearnczech.com/genitive/pronouns#second-person-ty-tětebe",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#emecna",
+      "name": "Examples",
+      "x": 172,
+      "y": -399,
+      "link": "https://grammar.ilearnczech.com/genitive/pronouns#examples",
+      "bgColor": "#f2ecd2",
+      "parent": "#krwt6e"
+    },
+    {
+      "@id": "#u8v9bw",
+      "name": "Third Person: On/Ona/Oni",
+      "x": 248,
+      "y": -26,
+      "link": "https://grammar.ilearnczech.com/genitive/pronouns#third-person-ononaoni",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#j6zbf9",
+      "name": "He/It: On/Ono → Jeho/Ho/Něho",
+      "x": 401,
+      "y": -253,
+      "link": "https://grammar.ilearnczech.com/genitive/pronouns#heit-onono-jehohoněho",
+      "bgColor": "#ddf2de",
+      "parent": "#u8v9bw"
+    },
+    {
+      "@id": "#2z3p7w",
+      "name": "She: Ona → Jí/Ní",
+      "x": 575,
+      "y": -111,
+      "link": "https://grammar.ilearnczech.com/genitive/pronouns#she-ona-jíní",
+      "bgColor": "#ddf2de",
+      "parent": "#u8v9bw"
+    },
+    {
+      "@id": "#pvzwd8",
+      "name": "They: Oni → Jich/Nich",
+      "x": 495,
+      "y": 59,
+      "link": "https://grammar.ilearnczech.com/genitive/pronouns#they-oni-jichnich",
+      "bgColor": "#ddf2de",
+      "parent": "#u8v9bw"
+    },
+    {
+      "@id": "#57iy7q",
+      "name": "Examples",
+      "x": 520,
+      "y": 237,
+      "link": "https://grammar.ilearnczech.com/genitive/pronouns#examples",
+      "bgColor": "#ddf2de",
+      "parent": "#u8v9bw"
+    },
+    {
+      "@id": "#qprvms",
+      "name": "Reflexive: Se → Sebe",
+      "x": 131,
+      "y": 172,
+      "link": "https://grammar.ilearnczech.com/genitive/pronouns#reflexive-se-sebe",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#7fucmt",
+      "name": "Possessive Pronouns",
+      "x": 67,
+      "y": 216,
+      "link": "https://grammar.ilearnczech.com/genitive/pronouns#possessive-pronouns-genitive-form",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#t922yq",
+      "name": "Common Phrases",
+      "x": -97,
+      "y": 209,
+      "link": "https://grammar.ilearnczech.com/genitive/pronouns#common-phrases",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#26rfi6",
+      "name": "Practice",
+      "x": -154,
+      "y": 164,
+      "link": "https://grammar.ilearnczech.com/genitive/pronouns#practice",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#u28rkq",
+      "name": "Summary Table",
+      "x": -214,
+      "y": 110,
+      "link": "https://grammar.ilearnczech.com/genitive/pronouns#summary-table",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#varvfj",
+      "name": "← Theory",
+      "x": -246,
+      "y": 38,
+      "link": "./theory.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 0,
+      "end": 3
+    },
+    {
+      "start": 3,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 5,
+      "end": 6
+    },
+    {
+      "start": 0,
+      "end": 7
+    },
+    {
+      "start": 7,
+      "end": 8
+    },
+    {
+      "start": 0,
+      "end": 9
+    },
+    {
+      "start": 9,
+      "end": 10
+    },
+    {
+      "start": 9,
+      "end": 11
+    },
+    {
+      "start": 9,
+      "end": 12
+    },
+    {
+      "start": 9,
+      "end": 13
+    },
+    {
+      "start": 0,
+      "end": 14
+    },
+    {
+      "start": 0,
+      "end": 15
+    },
+    {
+      "start": 0,
+      "end": 16
+    },
+    {
+      "start": 0,
+      "end": 17
+    },
+    {
+      "start": 0,
+      "end": 18
+    },
+    {
+      "start": 0,
+      "end": 19
+    }
+  ],
+  "selectedNode": 0
+}

@@ -1,0 +1,311 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Adjective Agreement",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/genitive/adjectives",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#c74y5q",
+      "name": "The Key Pattern",
+      "x": -246,
+      "y": -37,
+      "link": "https://grammar.ilearnczech.com/genitive/adjectives#the-key-pattern",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#374kep",
+      "name": "Singular Adjective Endings",
+      "x": -125,
+      "y": -184,
+      "link": "https://grammar.ilearnczech.com/genitive/adjectives#singular-adjective-endings",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ba2cgp",
+      "name": "Hard Adjectives",
+      "x": -410,
+      "y": -243,
+      "link": "https://grammar.ilearnczech.com/genitive/adjectives#hard-adjectives-nový-starý-dobrý",
+      "bgColor": "#efe6ff",
+      "parent": "#374kep"
+    },
+    {
+      "@id": "#h7ym9k",
+      "name": "Examples",
+      "x": -366,
+      "y": -393,
+      "link": "https://grammar.ilearnczech.com/genitive/adjectives#examples",
+      "bgColor": "#efe6ff",
+      "parent": "#374kep"
+    },
+    {
+      "@id": "#ius84b",
+      "name": "Soft Adjectives",
+      "x": -184,
+      "y": -395,
+      "link": "https://grammar.ilearnczech.com/genitive/adjectives#soft-adjectives-cizí-jarní-poslední",
+      "bgColor": "#efe6ff",
+      "parent": "#374kep"
+    },
+    {
+      "@id": "#583aqh",
+      "name": "Examples",
+      "x": -50,
+      "y": -500,
+      "link": "https://grammar.ilearnczech.com/genitive/adjectives#examples",
+      "bgColor": "#efe6ff",
+      "parent": "#374kep"
+    },
+    {
+      "@id": "#sbf4ee",
+      "name": "Quick Reference Table",
+      "x": 97,
+      "y": -196,
+      "link": "https://grammar.ilearnczech.com/genitive/adjectives#quick-reference-table---singular",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#t6q67m",
+      "name": "Plural Adjective Endings",
+      "x": 220,
+      "y": -100,
+      "link": "https://grammar.ilearnczech.com/genitive/adjectives#plural-adjective-endings",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#abq85r",
+      "name": "Hard Adjectives: -ých",
+      "x": 388,
+      "y": -268,
+      "link": "https://grammar.ilearnczech.com/genitive/adjectives#hard-adjectives--ých",
+      "bgColor": "#ffe4d9",
+      "parent": "#t6q67m"
+    },
+    {
+      "@id": "#sy2ncx",
+      "name": "Soft Adjectives: -ích",
+      "x": 564,
+      "y": -149,
+      "link": "https://grammar.ilearnczech.com/genitive/adjectives#soft-adjectives--ích",
+      "bgColor": "#ffe4d9",
+      "parent": "#t6q67m"
+    },
+    {
+      "@id": "#fertai",
+      "name": "Possessive Adjectives",
+      "x": 248,
+      "y": 29,
+      "link": "https://grammar.ilearnczech.com/genitive/adjectives#possessive-adjectives",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#9u36xp",
+      "name": "Examples",
+      "x": 495,
+      "y": 57,
+      "link": "https://grammar.ilearnczech.com/genitive/adjectives#examples",
+      "bgColor": "#f2ecd2",
+      "parent": "#fertai"
+    },
+    {
+      "@id": "#5q2nc4",
+      "name": "Demonstratives",
+      "x": 222,
+      "y": 98,
+      "link": "https://grammar.ilearnczech.com/genitive/adjectives#demonstratives-thisthat",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#eegh3a",
+      "name": "Examples",
+      "x": 443,
+      "y": 196,
+      "link": "https://grammar.ilearnczech.com/genitive/adjectives#examples",
+      "bgColor": "#ddf2de",
+      "parent": "#5q2nc4"
+    },
+    {
+      "@id": "#tmtdcb",
+      "name": "Interrogatives",
+      "x": 98,
+      "y": 196,
+      "link": "https://grammar.ilearnczech.com/genitive/adjectives#interrogatives-whichwhat-kind",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ziixui",
+      "name": "Který",
+      "x": 319,
+      "y": 328,
+      "link": "https://grammar.ilearnczech.com/genitive/adjectives#který-which",
+      "bgColor": "#d1f3f4",
+      "parent": "#tmtdcb"
+    },
+    {
+      "@id": "#qnf7j2",
+      "name": "Jaký",
+      "x": 230,
+      "y": 462,
+      "link": "https://grammar.ilearnczech.com/genitive/adjectives#jaký-what-kind-of",
+      "bgColor": "#d1f3f4",
+      "parent": "#tmtdcb"
+    },
+    {
+      "@id": "#rx55k2",
+      "name": "Examples",
+      "x": 56,
+      "y": 422,
+      "link": "https://grammar.ilearnczech.com/genitive/adjectives#examples",
+      "bgColor": "#d1f3f4",
+      "parent": "#tmtdcb"
+    },
+    {
+      "@id": "#ux93wm",
+      "name": "Common Combinations",
+      "x": -80,
+      "y": 204,
+      "link": "https://grammar.ilearnczech.com/genitive/adjectives#common-combinations",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#a464iu",
+      "name": "Practice",
+      "x": -163,
+      "y": 160,
+      "link": "https://grammar.ilearnczech.com/genitive/adjectives#practice",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#simp87",
+      "name": "Summary",
+      "x": -217,
+      "y": 105,
+      "link": "https://grammar.ilearnczech.com/genitive/adjectives#summary",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#tzmucf",
+      "name": "← Theory",
+      "x": -246,
+      "y": 36,
+      "link": "./theory.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 2,
+      "end": 3
+    },
+    {
+      "start": 2,
+      "end": 4
+    },
+    {
+      "start": 2,
+      "end": 5
+    },
+    {
+      "start": 2,
+      "end": 6
+    },
+    {
+      "start": 0,
+      "end": 7
+    },
+    {
+      "start": 0,
+      "end": 8
+    },
+    {
+      "start": 8,
+      "end": 9
+    },
+    {
+      "start": 8,
+      "end": 10
+    },
+    {
+      "start": 0,
+      "end": 11
+    },
+    {
+      "start": 11,
+      "end": 12
+    },
+    {
+      "start": 0,
+      "end": 13
+    },
+    {
+      "start": 13,
+      "end": 14
+    },
+    {
+      "start": 0,
+      "end": 15
+    },
+    {
+      "start": 15,
+      "end": 16
+    },
+    {
+      "start": 15,
+      "end": 17
+    },
+    {
+      "start": 15,
+      "end": 18
+    },
+    {
+      "start": 0,
+      "end": 19
+    },
+    {
+      "start": 0,
+      "end": 20
+    },
+    {
+      "start": 0,
+      "end": 21
+    },
+    {
+      "start": 0,
+      "end": 22
+    }
+  ],
+  "selectedNode": 0
+}

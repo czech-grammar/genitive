@@ -1,0 +1,115 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Theory",
+      "x": 0,
+      "y": 0,
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#g45zx9",
+      "name": "Singular Endings",
+      "x": -226,
+      "y": -90,
+      "link": "./singular.jsonld",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#vz8rhu",
+      "name": "Plural Endings",
+      "x": -70,
+      "y": -204,
+      "link": "./plural.jsonld",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#35gtrs",
+      "name": "Prepositions",
+      "x": 128,
+      "y": -183,
+      "link": "./prepositions.jsonld",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#fiqrfa",
+      "name": "Common Uses",
+      "x": 244,
+      "y": -45,
+      "link": "./uses.jsonld",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#fad69b",
+      "name": "Adjective Agreement",
+      "x": 192,
+      "y": 137,
+      "link": "./adjectives.jsonld",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#fnrzmm",
+      "name": "Pronouns",
+      "x": -9,
+      "y": 212,
+      "link": "./pronouns.jsonld",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#3y3s3p",
+      "name": "← 2. Genitive (2. pád)",
+      "x": -212,
+      "y": 113,
+      "link": "./index.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 0,
+      "end": 3
+    },
+    {
+      "start": 0,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 0,
+      "end": 6
+    },
+    {
+      "start": 0,
+      "end": 7
+    }
+  ],
+  "selectedNode": 0
+}

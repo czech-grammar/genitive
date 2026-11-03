@@ -1,0 +1,194 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Introduction",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/genitive/intro",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#rtnzsk",
+      "name": "Why Master the Genitive?",
+      "x": -237,
+      "y": -67,
+      "link": "https://grammar.ilearnczech.com/genitive/intro#why-master-the-genitive",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#v8phzs",
+      "name": "What You'll Learn",
+      "x": -65,
+      "y": -205,
+      "link": "https://grammar.ilearnczech.com/genitive/intro#what-youll-learn",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#izxsmt",
+      "name": "📚 Theory",
+      "x": -296,
+      "y": -342,
+      "link": "https://grammar.ilearnczech.com/genitive/intro#theory",
+      "bgColor": "#efe6ff",
+      "parent": "#v8phzs"
+    },
+    {
+      "@id": "#er3xwg",
+      "name": "💪 Exercises",
+      "x": -154,
+      "y": -484,
+      "link": "https://grammar.ilearnczech.com/genitive/intro#exercises",
+      "bgColor": "#efe6ff",
+      "parent": "#v8phzs"
+    },
+    {
+      "@id": "#3p4wn2",
+      "name": "📋 Cheatsheets",
+      "x": 53,
+      "y": -423,
+      "link": "https://grammar.ilearnczech.com/genitive/intro#cheatsheets",
+      "bgColor": "#efe6ff",
+      "parent": "#v8phzs"
+    },
+    {
+      "@id": "#f356md",
+      "name": "Quick Facts",
+      "x": 145,
+      "y": -173,
+      "link": "https://grammar.ilearnczech.com/genitive/intro#quick-facts",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#c9pfmk",
+      "name": "The Core Concept",
+      "x": 219,
+      "y": -102,
+      "link": "https://grammar.ilearnczech.com/genitive/intro#the-core-concept",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#metvfr",
+      "name": "Key Prepositions",
+      "x": 250,
+      "y": -6,
+      "link": "https://grammar.ilearnczech.com/genitive/intro#key-prepositions",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#rnyi3y",
+      "name": "Singular Endings at a Glance",
+      "x": 210,
+      "y": 115,
+      "link": "https://grammar.ilearnczech.com/genitive/intro#singular-endings-at-a-glance",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ph8a5e",
+      "name": "The Tricky Part: Plurals",
+      "x": 112,
+      "y": 202,
+      "link": "https://grammar.ilearnczech.com/genitive/intro#the-tricky-part-plurals",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#uncmtp",
+      "name": "Common Expressions",
+      "x": -86,
+      "y": 205,
+      "link": "https://grammar.ilearnczech.com/genitive/intro#common-expressions",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#3vjzm2",
+      "name": "Start Learning",
+      "x": -170,
+      "y": 156,
+      "link": "https://grammar.ilearnczech.com/genitive/intro#start-learning",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#6wz95i",
+      "name": "← 2. Genitive (2. pád)",
+      "x": -239,
+      "y": 63,
+      "link": "./index.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 2,
+      "end": 3
+    },
+    {
+      "start": 2,
+      "end": 4
+    },
+    {
+      "start": 2,
+      "end": 5
+    },
+    {
+      "start": 0,
+      "end": 6
+    },
+    {
+      "start": 0,
+      "end": 7
+    },
+    {
+      "start": 0,
+      "end": 8
+    },
+    {
+      "start": 0,
+      "end": 9
+    },
+    {
+      "start": 0,
+      "end": 10
+    },
+    {
+      "start": 0,
+      "end": 11
+    },
+    {
+      "start": 0,
+      "end": 12
+    },
+    {
+      "start": 0,
+      "end": 13
+    }
+  ],
+  "selectedNode": 0
+}

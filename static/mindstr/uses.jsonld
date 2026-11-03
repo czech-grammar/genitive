@@ -1,0 +1,233 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Common Uses",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/genitive/uses",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#4dg5c4",
+      "name": "Possession",
+      "x": -245,
+      "y": -42,
+      "link": "https://grammar.ilearnczech.com/genitive/uses#1-possession-of",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#kwm3he",
+      "name": "Quantities & Numbers",
+      "x": -126,
+      "y": -183,
+      "link": "https://grammar.ilearnczech.com/genitive/uses#2-quantities-numbers",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#qvd9cw",
+      "name": "After Numbers 5+",
+      "x": -389,
+      "y": -267,
+      "link": "https://grammar.ilearnczech.com/genitive/uses#after-numbers-5",
+      "bgColor": "#efe6ff",
+      "parent": "#kwm3he"
+    },
+    {
+      "@id": "#sf37xb",
+      "name": "Compare: 1-4 vs 5+",
+      "x": -293,
+      "y": -435,
+      "link": "https://grammar.ilearnczech.com/genitive/uses#compare-1-4-vs-5",
+      "bgColor": "#efe6ff",
+      "parent": "#kwm3he"
+    },
+    {
+      "@id": "#fuhjpf",
+      "name": "Quantity Words",
+      "x": -78,
+      "y": -420,
+      "link": "https://grammar.ilearnczech.com/genitive/uses#quantity-words",
+      "bgColor": "#efe6ff",
+      "parent": "#kwm3he"
+    },
+    {
+      "@id": "#dry8wx",
+      "name": "Partitive",
+      "x": 77,
+      "y": -204,
+      "link": "https://grammar.ilearnczech.com/genitive/uses#3-partitive-part-of-something",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#rmckuv",
+      "name": "Negation",
+      "x": 163,
+      "y": -160,
+      "link": "https://grammar.ilearnczech.com/genitive/uses#4-negation",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#6cicry",
+      "name": "Date Expressions",
+      "x": 225,
+      "y": -93,
+      "link": "https://grammar.ilearnczech.com/genitive/uses#5-date-expressions",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#7c28q6",
+      "name": "Time Expressions",
+      "x": 250,
+      "y": -6,
+      "link": "https://grammar.ilearnczech.com/genitive/uses#6-time-expressions",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#4qbh3e",
+      "name": "Adjectives Requiring Genitive",
+      "x": 216,
+      "y": 107,
+      "link": "https://grammar.ilearnczech.com/genitive/uses#7-adjectives-requiring-genitive",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#m3xps2",
+      "name": "Verbs Requiring Genitive",
+      "x": 129,
+      "y": 179,
+      "link": "https://grammar.ilearnczech.com/genitive/uses#8-verbs-requiring-genitive",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#yxjf84",
+      "name": "Examples",
+      "x": 241,
+      "y": 372,
+      "link": "https://grammar.ilearnczech.com/genitive/uses#examples",
+      "bgColor": "#daeeff",
+      "parent": "#m3xps2"
+    },
+    {
+      "@id": "#mrv4db",
+      "name": "Comparisons",
+      "x": 26,
+      "y": 229,
+      "link": "https://grammar.ilearnczech.com/genitive/uses#9-comparisons-than",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#i6483q",
+      "name": "Summary: When to Use Genitive",
+      "x": -110,
+      "y": 185,
+      "link": "https://grammar.ilearnczech.com/genitive/uses#summary-when-to-use-genitive",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#kmcrgd",
+      "name": "Practice",
+      "x": -207,
+      "y": 119,
+      "link": "https://grammar.ilearnczech.com/genitive/uses#practice",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ktiw89",
+      "name": "← Theory",
+      "x": -245,
+      "y": 42,
+      "link": "./theory.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 2,
+      "end": 3
+    },
+    {
+      "start": 2,
+      "end": 4
+    },
+    {
+      "start": 2,
+      "end": 5
+    },
+    {
+      "start": 0,
+      "end": 6
+    },
+    {
+      "start": 0,
+      "end": 7
+    },
+    {
+      "start": 0,
+      "end": 8
+    },
+    {
+      "start": 0,
+      "end": 9
+    },
+    {
+      "start": 0,
+      "end": 10
+    },
+    {
+      "start": 0,
+      "end": 11
+    },
+    {
+      "start": 11,
+      "end": 12
+    },
+    {
+      "start": 0,
+      "end": 13
+    },
+    {
+      "start": 0,
+      "end": 14
+    },
+    {
+      "start": 0,
+      "end": 15
+    },
+    {
+      "start": 0,
+      "end": 16
+    }
+  ],
+  "selectedNode": 0
+}

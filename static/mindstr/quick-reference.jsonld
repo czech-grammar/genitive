@@ -1,0 +1,181 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Quick Reference",
+      "x": 0,
+      "y": 0,
+      "link": "https://grammar.ilearnczech.com/genitive/quick-reference",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#mkijzp",
+      "name": "The Core Pattern",
+      "x": -244,
+      "y": -48,
+      "link": "https://grammar.ilearnczech.com/genitive/quick-reference#the-core-pattern",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#wm3fr8",
+      "name": "Singular Noun Endings",
+      "x": -186,
+      "y": -142,
+      "link": "https://grammar.ilearnczech.com/genitive/quick-reference#singular-noun-endings",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#xx6ai9",
+      "name": "Plural Noun Endings",
+      "x": -110,
+      "y": -203,
+      "link": "https://grammar.ilearnczech.com/genitive/quick-reference#plural-noun-endings",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#t5gcp9",
+      "name": "Personal Pronouns",
+      "x": 65,
+      "y": -211,
+      "link": "https://grammar.ilearnczech.com/genitive/quick-reference#personal-pronouns",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#wdgxta",
+      "name": "Adjective Endings",
+      "x": 154,
+      "y": -166,
+      "link": "https://grammar.ilearnczech.com/genitive/quick-reference#adjective-endings",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#4pcagq",
+      "name": "Prepositions with Genitive",
+      "x": 236,
+      "y": -71,
+      "link": "https://grammar.ilearnczech.com/genitive/quick-reference#prepositions-with-genitive",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#5b4mbz",
+      "name": "Numbers with Genitive",
+      "x": 241,
+      "y": 57,
+      "link": "https://grammar.ilearnczech.com/genitive/quick-reference#numbers-with-genitive",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#6kbx7u",
+      "name": "Common Verbs + Genitive",
+      "x": 165,
+      "y": 160,
+      "link": "https://grammar.ilearnczech.com/genitive/quick-reference#common-verbs-genitive",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#9bysfh",
+      "name": "Common Phrases",
+      "x": 82,
+      "y": 208,
+      "link": "https://grammar.ilearnczech.com/genitive/quick-reference#common-phrases",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#cyd9xx",
+      "name": "Quick Decision Tree",
+      "x": -82,
+      "y": 205,
+      "link": "https://grammar.ilearnczech.com/genitive/quick-reference#quick-decision-tree",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#bvsynb",
+      "name": "The Key Questions",
+      "x": -171,
+      "y": 155,
+      "link": "https://grammar.ilearnczech.com/genitive/quick-reference#the-key-questions",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#xintwj",
+      "name": "← 2. Genitive (2. pád)",
+      "x": -240,
+      "y": 61,
+      "link": "./index.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 0,
+      "end": 3
+    },
+    {
+      "start": 0,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 0,
+      "end": 6
+    },
+    {
+      "start": 0,
+      "end": 7
+    },
+    {
+      "start": 0,
+      "end": 8
+    },
+    {
+      "start": 0,
+      "end": 9
+    },
+    {
+      "start": 0,
+      "end": 10
+    },
+    {
+      "start": 0,
+      "end": 11
+    },
+    {
+      "start": 0,
+      "end": 12
+    }
+  ],
+  "selectedNode": 0
+}
